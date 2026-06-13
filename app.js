@@ -214,10 +214,10 @@ const isiAplikasi = `
                     <div class="ttd-space"></div>
 
                     <div style="text-align: center;">
-                        <input type="text" id="ttd_nama" class="ttd-nama-underline" value="Drs. MUHAMMAD RUDI, M.Si">
+                        <input type="text" id="ttd_nama" class="ttd-nama-underline" style="width: 100%; text-align: center;" value="Drs. MUHAMMAD RUDI, M.Si">
                         <br>
                         <span style="font-family: inherit;">
-                            <input type="text" id="ttd_nip" class="input-inline ttd-nip" style="width:210px; text-align:center; font-weight: normal; text-decoration: none;" value="NIP.19740411 199302 1 002">
+                            <input type="text" id="ttd_nip" class="input-inline ttd-nip" style="width: 100%; text-align: center; border-bottom: none; font-weight: normal; text-decoration: none;" value="NIP.19740411 199302 1 002">
                         </span>
                     </div>
                 </div>
