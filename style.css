@@ -235,7 +235,15 @@ input:focus, textarea:focus { border-color: var(--accent); outline: none; box-sh
     table { page-break-inside: auto; }
     thead { display: table-header-group; }
     tr, td { page-break-inside: auto !important; }
-    .row-group, th, .ttd-section { page-break-inside: avoid !important; }
+    .row-group, th { page-break-inside: avoid !important; }
+    
+    /* Aturan khusus untuk menormalkan ketebalan tanggalan */
+    .ttd-section { 
+        page-break-inside: avoid !important; 
+    }
+    .ttd-section select, .ttd-section select option {
+        font-weight: normal !important;
+    }
     .print-render-container.active-proof { 
         display: block !important; margin-top: 15px; padding-top: 10px; 
         border-top: 1px dashed #777; 
